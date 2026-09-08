@@ -1,0 +1,29 @@
+name: gacad_advmobprog_longexam1
+description: A Facebook-inspired Flutter client for the DummyJSON API.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.1.1
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  http: ^1.6.0
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
